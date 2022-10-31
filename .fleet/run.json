@@ -1,0 +1,10 @@
+{
+  "configurations": [
+    {
+      "type": "command",
+      "name": "run",
+      "program": "deno",
+      "args": ["run", "--allow-net=:8000,chart.googleapis.com", "--allow-read=./app.js,./qrCode.png", "--allow-write=./qrCode.png", "--allow-run=uname", "--watch", "./mod.ts"]
+    }
+  ]
+}
